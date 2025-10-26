@@ -1,13 +1,15 @@
-title: Parchment
-author: pro-panda
-subtitle: The life of a frustrated engineer
+title: Brenno Ferreira
+author: FrBrenno
+subtitle: Side-projects & some other things
 
-url: "https://rahulbothra.com"
-baseurl: "/parchment"
+url: ""
+baseurl: ""
+
+highlighter: rouge
 
 footer_only_homepage: true
-footer_url: "https://github.com/rhl-bthr"
-footer_text: "Theme by rhl-bthr"
+footer_url: "https://github.com/FrBrenno"
+footer_text: "Check my Github"
 
 profile-picture: assets/profile.png
 favicon_location: assets/favicon.ico
@@ -21,4 +23,4 @@ navbar:
  - name: "About"
    link: "about"
  - name: "Resume"
-   absolute-link: "https://rahulbothra.com/cv.pdf"
+   absolute-link: ""

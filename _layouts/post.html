@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<div class="post-date">
+    {{ page.date | date: "%B %-d, %Y" }}
+</div>
 
 <div class="page-subtitle">
     {% for tag in page.tags %}
@@ -14,6 +17,10 @@ layout: default
             ,
         {% endif %}
     {% endfor %}
+    
 </div>
 
 {{content}}
+
+{% include signature.html %}
+
