@@ -2,7 +2,7 @@
 layout: post
 title: Hello, World !
 subtitle: First post of all, maybe it is a test too.
-tags: [info]
+tags: [infos]
 ---
 
 ```c
@@ -29,3 +29,4 @@ I would like to thank [RAHUL BOTHRA](https://rahulbothra.com/) for this _beautif
 If you don't know who I am, please check the [About Page]({{ page.about }}). I'll make a cute summary of who I am and what I am doing.
 
 See you soon in the next article (if I am capable of finish one side-project). Maybe, we could talk about this blog and how I set it up.
+
