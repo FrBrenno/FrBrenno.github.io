@@ -20,7 +20,8 @@ sass:
     sass_dir: css
 
 navbar:
- - name: "About"
-   link: "about"
- - name: "Resume"
-   absolute-link: ""
+  - name: "About Me"
+    link: "about"
+  - name: "Linkedin"
+    url: "https://www.linkedin.com/in/frbrenno/"
+
