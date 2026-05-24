@@ -1,6 +1,6 @@
 title: Brenno Ferreira
 author: FrBrenno
-subtitle: Side-projects & some other things
+subtitle: Career Updates, side-projects & some other things
 
 url: ""
 baseurl: ""
@@ -11,7 +11,7 @@ footer_only_homepage: true
 footer_url: "https://github.com/FrBrenno"
 footer_text: "Check my Github"
 
-profile-picture: assets/profile.png
+profile-picture: assets/profile.jpg
 favicon_location: assets/favicon.ico
 
 permalink: /:year-:month-:day-:title/
