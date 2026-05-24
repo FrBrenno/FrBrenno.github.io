@@ -4,16 +4,20 @@
   <ul class="pull-right">
     {% for x in site.navbar %}
       <li class="pull-left">
+        
+        <!-- External link -->
         {% if x.url and x.url contains '://' %}
-          <!-- External link -->
           <a href="{{ x.url }}" target="_blank" rel="noopener">{{ x.name }}</a>
+
+        <!-- Internal link -->
         {% elsif x.url %}
-          <!-- Internal link -->
           <a href="{{ site.baseurl }}/{{ x.url | remove_first: '/' }}">{{ x.name }}</a>
-        {% elsif x.link %}
+        
           <!-- Legacy support for your old key -->
+        {% elsif x.link %}
           <a href="{{ site.baseurl }}/{{ x.link | remove_first: '/' }}">{{ x.name }}</a>
-        {% endif %}
+         {% endif %}
+
         {% unless forloop.last %}/{% endunless %}
       </li>
     {% endfor %}

@@ -243,9 +243,10 @@ pre code {
         }
     }
     img {
-        text-align: center;
-        margin: 10px 10px 10px 10px;
-        max-width: $max-width;
+        display: block;
+        margin: 10px auto;
+        max-width: 100%;
+        height: auto;
     }
 
     .color-red {

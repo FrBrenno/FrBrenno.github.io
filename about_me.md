@@ -3,7 +3,7 @@ layout: default
 title: About Me
 ---
 
-![This is me!]()
+<img src="{{ '/assets/about_me/profile.jpg' | relative_url }}" alt="This is me" width="250">
 
 My name is **Brenno Ferreira** and I am a **phD student** at **Univeristé Libre de Bruxelles (ULB)** in Brussels. I did all my academic path at ULB. It started with a *bachelor's degree* in *Engineering Sciences* in *2023*, followed by a *master's degree* in *Computer Science Engineering* in 2025 with specialization in embedded systems design, and now a phD.
 
